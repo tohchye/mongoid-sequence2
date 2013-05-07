@@ -61,8 +61,9 @@ Just add it to your projects' `Gemfile`:
 gem "mongoid-sequence"
 ```
 
-## Declare
+## Thanks
 
+thanks [masatomo](https://github.com/masatomo), [goncalossilva](https://github.com/goncalossilva), [agile42](https://github.com/agile42)
 
 
 <hr/>
