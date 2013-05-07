@@ -2,8 +2,8 @@
 require File.expand_path('../lib/mongoid-sequence2/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Francis Jiang"]
-  gem.email         = ["jhjguxin@gmail.com"]
+  gem.authors       = ["jhjguxin"]
+  gem.email         = ["864248765@qq.com"]
   gem.description   = %q{Mongoid::Sequence2 gives you the ability to specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).}
   gem.summary       = %q{Specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).}
   gem.homepage      = "https://github.com/jhjguxin/mongoid-sequence2"
