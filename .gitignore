@@ -1,3 +1,11 @@
+# Ignore all swap files
+*.sql
+.*.swp
+.*.swo
+*~
+*.bak
+*.log
+nohup.out
 *.gem
 *.rbc
 .bundle

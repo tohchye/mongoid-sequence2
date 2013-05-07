@@ -6,6 +6,10 @@ Mongoid Sequence allows you to specify fields to behave like a sequence number (
 
 This gem was inspired by a couple of gists by [masatomo](https://gist.github.com/730677) and [ShogunPanda](https://gist.github.com/1086265).
 
+and
+
+https://github.com/agile42/mongoid_sequence2/ **from francis**
+
 ## Usage
 
 Include `Mongoid::Sequence` in your class and call `sequence(:field)`.
@@ -16,7 +20,7 @@ Like this:
 class Sequenced
 	include Mongoid::Document
 	include Mongoid::Sequence
-	
+
 	field :my_sequence, :type => Integer
 	sequence :my_sequence
 end
@@ -34,7 +38,7 @@ It's also possible to make the `id` field behave like this:
 class Sequenced
 	include Mongoid::Document
 	include Mongoid::Sequence
-	
+
 	sequence :_id
 end
 
@@ -56,6 +60,10 @@ Just add it to your projects' `Gemfile`:
 ```ruby
 gem "mongoid-sequence"
 ```
+
+## Declare
+
+
 
 <hr/>
 
