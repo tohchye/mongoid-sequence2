@@ -58,7 +58,7 @@ Mongoid::Sequence uses the atomic [findAndModify](http://www.mongodb.org/display
 Just add it to your projects' `Gemfile`:
 
 ```ruby
-gem "mongoid-sequence"
+gem "mongoid-sequence2"
 ```
 
 ## Thanks

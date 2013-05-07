@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/mongoid-sequence/version', __FILE__)
+require File.expand_path('../lib/mongoid-sequence2/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Gonçalo Silva"]
-  gem.email         = ["goncalossilva@gmail.com"]
-  gem.description   = %q{Mongoid::Sequence gives you the ability to specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).}
+  gem.authors       = ["Francis Jiang"]
+  gem.email         = ["jhjguxin@gmail.com"]
+  gem.description   = %q{Mongoid::Sequence2 gives you the ability to specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).}
   gem.summary       = %q{Specify fields to behave like a sequence number (exactly like the "id" column in conventional SQL flavors).}
-  gem.homepage      = "https://github.com/goncalossilva/mongoid-sequence"
+  gem.homepage      = "https://github.com/jhjguxin/mongoid-sequence2"
 
   gem.add_dependency("mongoid", [">= 3.0.0","< 4.1.0"])
   gem.add_dependency("activesupport", "~> 3.1")

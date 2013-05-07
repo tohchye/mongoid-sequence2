@@ -5,7 +5,7 @@ require "test/unit"
 require "mongoid"
 require 'database_cleaner'
 
-require File.expand_path("../../lib/mongoid-sequence", __FILE__)
+require File.expand_path("../../lib/mongoid-sequence2", __FILE__)
 
 Mongoid.load!("./test/config/mongoid.yml", :test)
 
