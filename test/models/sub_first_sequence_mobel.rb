@@ -1,0 +1,2 @@
+class SubFirstSequencedModel < FirstSequencedModel
+end
