@@ -36,7 +36,7 @@ module Mongoid
     end
 
     def set_sequence
-      self.class.sequence_fields.each do |f|
+      (self.class.sequence_fields||[]).each do |f|
         if f.is_a?(Hash)
           f.each do |k,v|
             Array(v).each { |sf| self[sf] = Sequences.get_next_sequence(k, sf) }
